@@ -18,4 +18,4 @@ thoughtsRouter.route('/:thoughtId/reactions')
 thoughtsRouter.route('/:thoughtId/reactions/:reactionId')
     .delete(deleteReaction);
 
-export default thoughtsRouter;
+export { thoughtsRouter };
