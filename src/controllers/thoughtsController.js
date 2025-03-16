@@ -9,7 +9,7 @@ export const getAllThoughts = async (req, res) => {
     }
 };
 
-export const getThought = async (req, res) => {
+export const getThoughtById = async (req, res) => {
     try {
         const thought = await Thought.findById(params.thoughtId);
         if (!thought) {

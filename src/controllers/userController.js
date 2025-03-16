@@ -1,4 +1,4 @@
-import { User, Thought } from '../models';
+import { User, Thought } from '../models/index.js';
 
 export const getAllUsers = async (req, res) => {
     try {

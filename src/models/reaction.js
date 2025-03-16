@@ -1,7 +1,7 @@
 import { Schema, Types } from 'mongoose';
 import { formatTimestamp } from '../utils/timeStamp.js';
 
-const reactionSchema = new Schema({
+export const reactionSchema = new Schema({
     reactionId: {
         type: Schema.Types.ObjectId,
         default: () => new Types.ObjectId()

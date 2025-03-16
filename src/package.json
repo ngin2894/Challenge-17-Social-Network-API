@@ -13,15 +13,17 @@
   "keywords": [],
   "author": "",
   "license": "ISC",
-  "type": "commonjs",
+  "type": "module",
   "bugs": {
     "url": "https://github.com/ngin2894/Challenge-17-Social-Network-API/issues"
   },
   "homepage": "https://github.com/ngin2894/Challenge-17-Social-Network-API#readme",
   "dependencies": {
+    "dayjs": "^1.11.13",
     "dotenv": "^16.4.7",
     "express": "^4.21.2",
-    "mongoose": "^8.12.1"
+    "mongoose": "^8.12.1",
+    "validator": "^13.12.0"
   },
   "devDependencies": {
     "nodemon": "^3.1.9"
