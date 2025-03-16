@@ -54,8 +54,18 @@ Examples calls:
             }
         DELETE: http://localhost:3001/api/thoughts/<INSERT THOUGHT ID HERE>
 
-    Reactions: 
-          
+    Reactions: HTTP://
+        POST: http://localhost:3001/api/thoughts/<INSERT THOUGHT ID HERE>/reactions
+            {
+                "reactionBody": "",
+                "username": ""
+            }
+        PUT:
+            {
+                "reactionBody": "",
+                "username": ""
+            }
+        DELETE: http://localhost:3001/api/thoughts/<INSERT THOUGHT ID HERE>/reactions
 
 ## License
 This project is licensed under the [MIT]([License](https://opensource.org/licenses/MIT)) license.
